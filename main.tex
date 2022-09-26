@@ -1,0 +1,245 @@
+\documentclass[11.5pt,a4paper]{moderncv}
+
+\usepackage{eurosym}
+\usepackage{fontawesome}
+\usepackage[utf8]{inputenc}
+\usepackage[francais]{babel}
+  \moderncvtheme[green]{classic}
+% \moderncvcolor{green}
+
+% \usepackage[top=1.1cm, bottom=1.1cm, left=2cm, right=2cm]{geometry}
+\usepackage[top=1cm, bottom=1cm, left=2cm, right=2cm]{geometry}
+\setlength{\hintscolumnwidth}{2cm}
+
+\firstname{Justine}
+\familyname{Le Vaillant}
+\title{Post-doctoral fellowship}
+\address{Department of Biology}{Univeristy Sherbrooke, Québec, Canada}
+\email{justine0le-vaillant@gmail.com}
+\mobile{+33/07 60 14 08 23}
+%\extrainfo{\faGlobe ResearchGate: Justine Le Vaillant}
+%\extrainfo{\faGlobe Twitter: @JustineLV3}
+\extrainfo{\faGlobe ResearchGate: Justine Le Vaillant \\ \faGlobe Twitter: @JustineLV3}
+
+\newcommand{\cvdoublecolumn}[2]{%
+  \cvitem[0.75em]{}{%
+    \begin{minipage}[t]{\listdoubleitemcolumnwidth}#1\end{minipage}%
+    \hfill%
+    \begin{minipage}[t]{\listdoubleitemcolumnwidth}#2\end{minipage}%
+    }% 
+}           
+
+% for permits references into columns ?
+
+\newcommand{\cvreference}[7]{%
+    \textbf{#1}\newline% Name
+    \ifthenelse{\equal{#2}{}}{}{\addresssymbol~#2\newline}%
+    \ifthenelse{\equal{#3}{}}{}{#3\newline}%
+    \ifthenelse{\equal{#4}{}}{}{#4\newline}%
+    \ifthenelse{\equal{#5}{}}{}{#5\newline}%
+    \ifthenelse{\equal{#6}{}}{}{\emailsymbol~\texttt{#6}\newline}%
+    \ifthenelse{\equal{#7}{}}{}{\phonesymbol~#7}} 										% add the references
+	
+% \renewcommand*{\listitemsymbol}{\hspace{-2cm}\labelitemi~}     % to shift listitem and change item into basic item (circ) - should set before call theme
+% \renewcommand{\listitemsymbol}{\hspace{-2cm}\labelitemi{$\circ$}}     % to shift listitem and change symbol  - works but circl after traits ><
+% \renewcommand{\labelitemi}{\strut\textcolor{color3}{\raisebox{1pt}{\tiny\faCircleBlank}}}
+\renewcommand{\listitemsymbol}{\hspace{-2cm}- }   % petits tiret décallé, mais collé
+
+% \renewcommand*{\cvitem}[3][.75em]{%
+  % \ifthenelse{\equal{#2}{}}{}{\begin{minipage}[t]{15cm}\hintstyle{#2}: }{#3}\end{minipage}%
+  % \par\addvspace{#1}}																			%to have margin in cventry
+	  
+  \begin{document}
+  \maketitle
+  \vspace{-1cm}
+
+
+\section{Education}
+\cventry{2017-2021}{PhD student in Evolutionary Ecology}{University of Sevilla (Spain)}{}{}{}
+\cvitem{PhD thesis}{’The evolutionary ecology of phenotypic eclogy in the pied flycatcher,\textit{Ficedula hypoleuca}’.}
+\cventry{2015}{Master~2  (MSc), Biology of  Population and Organism, pathway Behavioural Ecology}{University of Bourgogne (France)}{with distinction (2:2)}{}{}
+\cvitem{MSc thesis}{’The accession to reproduction and the influence of early body condition on juvenile survival in Zenaida dove, \textit{Zenaida aurita}’.}
+\cventry{2014}{Master~1 (MSc), Functional behavioral and evolutionary ecology}{University of Rennes~1 (France)}{with distinction 2:2}{}{}
+\cvitem{MSc thesis}{’The influence of quality environnements and dispersal statut on reproductive trade-off in females collared flycatchers, \textit{Ficedula albicollis}’.}
+\cventry{2013}{Bachelor of Science in Biology of Organisms and Ecosystems}{University of Bordeaux~1 (France)}{with distinction 2:2}{}{}
+
+
+\section{Research experiences}
+
+\cventry{2017-2021}{PhD student}{Research Unit of Biodiversity (UMIB) and Estaci\'{o}n Biol\'{o}gica de Do\~{n}ana (EBD)}{CSIC}{Spain}{Research in Evolutionary Ecology : \newline{}
+\cvlistitem{Tracked on the reproductive population (captured, ringed and measured) of \textit{Ficedula hypoleuca};}
+\cvlistitem{Implement of experiments on passerine, observations and collect of data;}
+\cvlistitem{Analysis on large data sets, implementation of quantitative genetic models and statistical analysis (linear and non linear mixed models, Bayesian models)}
+\cvlistitem{Participation and presentation of results in international conferences (posters and talks)}}
+
+\cventry{December 2015, March \\to June 2016}{Field and research assistant}{Experimental Ecology Station CNRS}{Moulis}{France}
+{Work field and fundamental research in Behavioural Ecology :\newline{} 
+\cvlistitem{Implement of experiments on passerines species, collected videos and analyzed behaviour ;}
+\cvlistitem{Captured, ringed and measured birds;}
+\cvlistitem{Tracked on the reproductive population (in charge of a study site).}}
+
+\cventry{August 2015}{Ecovolunter}{NGO : "Naturevolution" and "Projets Plus Actions"}{Madagascar}{}
+{Conservation missions in the Makay mount : \newline{} 
+\cvlistitem{Explored the unknown areas and made an inventory of the biodiversity ;}
+\cvlistitem{Communicated with locals, participated in renovation and sustainable development projects ;}
+\cvlistitem{Fundraising for the project (3500 \euro).}}
+
+\cventry{February \\to June 2015}{Research assistant}{Center of Functional and Evolution Ecology CNRS}{Montpellier}{France}
+{Research in Evolution and Population dynamics : \newline{}
+\cvlistitem{Analysis on large data sets, reproduction and survival modelisation of \textit{Zenaida aurita}, a dove specie native from Caribbean.}}
+
+\cventry{April \\to June 2014}{Field and research assistant}{University of Uppsala}{Gotland}{Sweden}
+{Work field and fundamental research in Evolution and Behavioural Ecology : \newline{}
+\cvlistitem{Tracked on the reproductive population of \textit{Ficedula albicollis} (passerines species);}
+\cvlistitem{Implement of experiments and collected data on field, analyzed data.}}
+
+ \cventry{June 2013}{Volunteer Worker}{National Reserve « Marais de Bruges »}{Bruges}{France}
+ {Contribtion to daily activities in a natural reserve:\newline{}
+ \cvlistitem{Monitored and maintained the nesting sites of \textit{Emys orbicularis} ;} 
+ \cvlistitem{Maintained the natural area and caught \textit{Procambarus clarkii}, an invasive crayfish ;} 
+ \cvlistitem{Explained to visitors the functioning of natural ecosystems, the fauna of swamp, and the threat of humans and invasive species.}
+ }
+
+
+
+\section {Extra research qualifications}
+\cventry{2017-2021}{Scientific Birds Ringer (preparation ringing permit)}{Aranzadi Ringing Scheme}{Spain}{}
+{Capture, manipulation, ringing and identification in hand and measures in wild birds.}
+
+\cventry{20-31 May 2019}{Certification of Manipulation and Experimentation on Wild Animal (Certification, a, b, c)}{Estacion Biologica de Doñana}{Andalousia}{Spain}
+{Caring and well-being (manipulation and euthanasia) with realisation of scientific experiments on wild animal.}
+
+
+\section {Teaching and Science Communication}
+\cventry{10-12 June 2022}{Participant}{'ComSciConQb'}{}{}
+{Production video, promotion sciences projects and participation activities in Science Communication}
+
+\cventry{17-23 May 2021}{Community manager Twitter}{'ComSciComCa'}{}{}
+{Animation, publication and managing on a Twitter account of Science Mediation}
+
+\cventry{2020}{Author}{Publication in Science Mediation}{}{}
+{Analyses and redaction} 
+\cvitem{Publication}{'What’s your favourite Pokémon? Pocket monster popularity reflects interest in real-world Biology’. \textit{Journal of Geeks Studies} Vol. 7(1)}
+
+\cventry{2019}{Translator}{Edition in Science Mediation}{'SEO/BirdLife'}{}
+{Translation and writing of an ornithological guide book} 
+\cvitem{Book}{'Aves reproductoras de la Devesa'}
+
+\cventry{November 2018}{Assistant professor}{University of Oviedo}{Mieres}{Spain}
+{Preparation practical work and assitant tutor}
+\cvitem{Course}{'Prácticas Laboratorio Gestión de Espacios'}
+
+\cventry{2015-2016}{Private teacher}{'Anacours'}{Aquitaine, France}{}
+{Preparation course and teaching in Environmental Science and Biology}
+
+\cventry{2016}{Science educador}{NGO"Objectif Sciences International"}{France and Switzerland}{}
+{Preparation of supervised sciences collaborative groups, website administration}
+
+\cventry{2013, 2015-2016}{School Teacher}{'Cap Terre'}{Aquitaine, France}{}
+{Preparation, scientific experimentation and teaching in Biology (Evolution and Ecology) in college and elementary school (15/16 years old; Periscolar Activities Times - 7/8 years old) about problematics and methodologies in Ecological Science.}
+
+\cventry{2011-2019}{Active member}{Students associations and SEO BirdLife}{France and Spain}{}
+{Observations,  conservation missions (nature projects, campaigning for environmental awareness) and formation identification biodiversity.}
+
+%\section {Associative activities}
+
+%\cvitem{Bird Ringing groups}{\textbf{Ringer in formation} : \newline{}
+%\cvlistitem{Grupo de Anillamiento GIA "Torquilla" (Asturias, Spain), 2017-2018}
+%\cvlistitem{Grupo Ornitologico del Sur "GOSUR" (Andalousia,Spain),2019-2021}
+%Capture ringing, manipulation and identification in hand and measures in birds.}
+
+%\cventry{Naturalist group}{Participant}{SEO Asturias}{Asturias (Spain)}{2017-2018}
+%{Observations, protection and formation identification biodiversity (mainly avian species).}
+
+%\cventry{Science popularization}{Speaker}{"Cap Terre"}{Bordeaux}{2013, 2015, 2016}
+%{Taught classes (15/16 years old) about problematics and methodologies in Ecology ; 
+%Driving lessons (7/8 years old) in elementary school (Periscolar Activities Times) in Evolution and Ecology.}
+
+%\cventry{Participatory Sciences}{Speaker}{NGO"Objectif Sciences International"}{International}{2016}
+%{Supervised sciences collaborative groups, passed down Biology and Ecology knowledge.}
+
+%\cvitem{Naturalist student associations}{\textbf{Active and board member} : \newline{}
+%\cvlistitem{"L'Astragale et la Fourmi"(Bordeaux), 2011 - 2013 ; 2015}
+%\cvlistitem{"Cercle Naturaliste des Etudiants Rennais" (CNER - Rennes), 2013 - 2014}
+%\cvlistitem{"Groupe Naturaliste Universitaire de Bourgogne" (GNUB - Dijon), 2014 - 2015}
+%Organisation of field trips and observations species, conservation missions (nature projects,
+%campaigning for environmental awareness).}
+
+\section{Extras Competences}
+\cvitem{Computing}{Analysis, utilisation and programming softwares: \newline{}  Microsoft Office, \LaTeX, R,  Python, ArcGis, Photoshop, Lightroom, E-Surge, JWatcher}
+\cvitem{Languages}{French (Mother tongue), English (Advanced level), Spanish (Advanced level)}
+\cvitem{Activities}{Flutist (10 years in musical school) ; Equitation ( 'galop 5' : stage 2) ; Aïkido \mdseries (3th Kyu)}
+\cvitem{Other}{Driving license}
+
+
+\section{Referees}
+   
+\cvdoublecolumn{
+   \cvreference{Jes\'{u}s Mart\'{i}nez-Padilla}
+    {}
+    {Pyrenean Institute of Ecology, CSIC}
+    {22700, Avda. Nuestra Senora de la Victoria 1, Jaca , Spain}
+    {}
+    {jmartinezpadilla12@gmail.com}
+    {+34/0 976 369 393} %\\[1em]
+   }
+	{\cvreference{Marcel Visser}
+    {Department of Animal Ecology}
+    {Netherlands Institute of Ecology (NIOO-KNAW)}
+    {6700 AB Wageningen, Netherlands}
+    {}
+    {m.visser@nioo.knaw.nl}
+    {+31/0 317 473439} % \\[1em]
+    }   
+
+	
+
+\newpage
+
+ \section{Publications}
+\cventry{2021}{Fluctuating selection driven by global and local climatic conditions leads to stasis in breeding time in a migratory bird}{Journal of Evolutionary Ecology}{34(10), 1541– 1553}{}{Le Vaillant J., Potti J., Camacho C., Canal D., and Martínez-Padilla J.}
+\cventry{2021}{Low Repeatability of Breeding Events Reflects Flexibility in Reproductive Timing in the Pied Flycatcher Ficedula hypoleuca in Spain}{Ardeola}{69(1),21–39}{}{Le Vaillant J., Potti J., Camacho C., Canal D., and Martínez-Padilla J.}
+
+\cventry{Manuscript}{Effects of local breeding environment on Tree swallow (\textit{Tachycineta bicolor}) population dynamics }{}{}{}{Le Vaillant J., Pigeon G., Garant D., Bélisle M., and Pelletier F}
+
+ \cventry{in submission}{Genetic variation in phenotypic plasticity for breeding time in a small migratory songbird}{Proceeding of the Royal Society B}{} {}{Le Vaillant J., Potti J, Camacho C., Canal D., Ramakers J., Visser M., and Martínez-Padilla J.}
+ \cventry{Manuscript}{Response to selection of breeding date under environmental variation}{Ecology letters}{}{}{Le Vaillant J., Visser M., Ramakers J., Potti J., and Martínez-Padilla J.}
+ \cventry{Manuscript}{Variability on reaction norm of breeding date in a Spanish pied flycatcher’s population in response to global and local environmental factors}{}{}{}{Le Vaillant J., Ramakers J., Visser M.,  Potti J., and Martínez-Padilla J.}
+\cventry{Manuscript}{Condition of breeders for laying date plasticity: experience in breeding compensate the age senescence effect?}{}{}{}{Le Vaillant J., Potti J., Camacho C., Canal D., and Martínez-Padilla J.} 
+
+
+\section{Congress and Conferences}
+
+\cventry{14-19 August 2022}{ESA-CSEE Annual Meeting}{Canadian Society for Ecology and Evolution (CSEE) \& Ecological Society of America (ESA)}{Montréal, Canada}{}
+{\cvlistitem{Talk: 'Effects of local breeding environment on population dynamics of Tree swallow, \textit{Tachycineta bicolor}’.}}
+
+\cventry{13-17 November 2019}{XXIV Congreso español y Iberico de Ornitologia}{SEO BirdLife Congreso}{Cadiz, Spain}{}
+{
+\cvlistitem{Talk: 'Evolvability of phenotypic plasticity under environmental variation in a population of pied flycatchers, \textit{Ficedula hypoleuca}’.}
+}
+
+\cventry{19-24 August 2019}{Congress of the European Society for Evolutionary Biology}{ESEB 2019}{Turku, Finland}{}
+{
+\cvlistitem{Talk: Symposium 'Rapid Evolutionary Adaptation: Potential and Constraints': 'Plasticity in evolutionary potential under environemental variation in a population of pied flycatchers, \textit{Ficedula hypoleuca}’.}
+}
+
+\cventry{4-8 September 2018}{International Congress of the Spanish Society of Ethology and Evolutionary Ecology}{Mieres 2018}{Spain}{}
+{ 
+\cvlistitem{Talk: 'The relative contribution of multiple agents on selection on laying date in a Mediterranean population of pied flycatchers'}
+\cvlistitem{Member of the Organizing Committee of the congress}}
+
+\cventry{18-22 August 2018}{The Second Joint Congress of Evolutionary Biology}{Evolution Montpellier 2018}{Montpellier, France}{}
+{ \cvlistitem{Poster; Symposium 'Rapid Evolutionary Responses to Global Change': 'The relative contribution of multiple agents on selection on laying date in a Mediterranean population of pied flycatchers'}
+\cvlistitem{Communication in meetings between scientifics and general public}
+}
+
+\cventry{2018}{VII Jornadas Internacionales de Doctorado}{University of Oviedo}{Mieres, Spain}{}
+{ 
+\cvlistitem{Presentation PhD project (\underline{Award in Science}): \\
+ 'The Evolutionary Ecology of phenotypic plasticity in the pied flycatchers,  \textit{Ficedula hypoleuca}'
+}}
+
+
+\end{document}
+
+
